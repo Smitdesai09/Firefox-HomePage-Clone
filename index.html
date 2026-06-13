@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Firefox: The fast, private browser that keeps you safe — Firefox.com
+    </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="font-sans bg-[rgb(33,3,64)] pt-18">
+    <!-- Navbar -->
+    <header>
+      <div
+        class="fixed top-0 left-0 right-0 flex items-center justify-between text-white px-6 py-1 lg:px-3 border-b border-gray-700 bg-[rgb(33,3,64)] z-50"
+      >
+        <a href="#" class="my-2">
+          <img class="w-full max-w-30" src="./assets/navbar-logo.svg" />
+        </a>
+
+        <div class="hidden lg:flex justify-center gap-14 text-lg">
+          <a href="#">Browser &#9662;</a>
+          <a href="#">Features &#9662;</a>
+          <a href="#">Resources &#9662;</a>
+        </div>
+
+        <div class="flex justify-center items-center gap-2 my-2">
+          <a
+            class="lg:hidden bg-[rgb(117,67,227)] p-2.5 rounded-lg hover:bg-[rgb(92,54,180)] cursor-pointer"
+            href="#"
+          >
+            <img
+              class="w-full max-w-4 text-center"
+              src="./assets/download.svg"
+            />
+          </a>
+          <button
+            class="lg:hidden bg-[rgb(117,67,227)] p-2.5 rounded-lg hover:bg-[rgb(92,54,180)] cursor-pointer"
+          >
+            <img class="w-full max-w-4 text-center" src="./assets/menu.svg" />
+          </button>
+          <button
+            class="hidden lg:block bg-[rgb(117,67,227)] text-white font-bold px-7 py-2.5 rounded-3xl hover:bg-[rgb(92,54,180)] cursor-pointer"
+          >
+            Get Firefox
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section
+        class="flex flex-col items-center gap-12 lg:gap-14 text-white pt-30 md:pt-40 pb-40 md:pb-54"
+      >
+        <div class="flex flex-col items-center gap-10 lg:gap-14">
+          <h1
+            class="text-4xl md:text-5xl lg:text-6xl max-w-70 md:max-w-140 lg:max-w-180 font-bold text-center text-balance leading-none"
+          >
+            Find your way back to a better internet
+          </h1>
+          <p
+            class="text-[17px] max-w-80 md:max-w-140 lg:max-w-180 text-center text-balance leading-tight"
+          >
+            The web was meant to expand your world, not limit it. Firefox helps
+            you shape a more personal internet that puts you back in control.
+          </p>
+        </div>
+        <div class="flex flex-col items-center gap-4">
+          <a
+            class="flex gap-3 items-center bg-[rgb(117,67,227)] px-6 py-2.5 rounded-3xl text-md font-bold hover:bg-[rgb(92,54,180)] cursor-pointer"
+          >
+            Download Firefox
+            <img class="w-full max-w-5" src="./assets/download.svg"
+          /></a>
+          <a
+            href="#"
+            class="text-sm text-purple-300 underline hover:text-white hover:no-underline"
+          >
+            Firefox Privacy Notice
+          </a>
+        </div>
+      </section>
+
+      <!-- cards grid section -->
+      <section
+        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 px-6 md:px-10"
+      >
+        <div
+          class="flex flex-col items-center justify-between gap-6 lg:gap-14 w-full px-8 py-10 rounded-[50px] bg-gradient-to-b from-white/90 to-white border border-[#f1e7f8] transition-transform duration-300 ease-out hover:-translate-y-[3px]"
+        >
+          <div class="flex flex-col items-center gap-5">
+            <p class="text-purple-800 text-xs font-semibold">PRIVACY</p>
+            <h2
+              class="text-2xl lg:text-3xl max-w-60 text-balance text-center font-semibold"
+            >
+              Privacy as a standard
+            </h2>
+          </div>
+          <div>
+            <img class="max-w-30" src="./assets/feature-privacy-icon.svg" />
+          </div>
+          <div>
+            <p class="text-base max-w-80 text-balance text-center">
+              Blocks trackers automatically. No setup. No guesswork.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-between gap-6 lg:gap-14 w-full px-8 py-10 rounded-[50px] bg-gradient-to-b from-white/90 to-white border border-[#f1e7f8] transition-transform duration-300 ease-out hover:-translate-y-[3px]"
+        >
+          <div class="flex flex-col items-center gap-5">
+            <p class="text-purple-800 text-xs font-semibold">FOCUS</p>
+            <h2
+              class="text-2xl lg:text-3xl max-w-60 text-balance text-center font-semibold"
+            >
+              Focus without distraction
+            </h2>
+          </div>
+          <div>
+            <img class="max-w-30" src="./assets/feature-focus-icon.svg" />
+          </div>
+          <div>
+            <p class="text-base max-w-80 text-balance text-center">
+              Stay focused with tab groups, reader mode, and videos that stay in
+              view.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-between gap-6 lg:gap-14 w-full px-8 py-10 rounded-[50px] bg-gradient-to-b from-white/90 to-white border border-[#f1e7f8] transition-transform duration-300 ease-out hover:-translate-y-[3px]"
+        >
+          <div class="flex flex-col items-center gap-5">
+            <p class="text-purple-800 text-xs font-semibold">CHOICE</p>
+            <h2
+              class="text-2xl lg:text-3xl max-w-60 text-balance text-center font-semibold"
+            >
+              Control and choice built in
+            </h2>
+          </div>
+          <div>
+            <img class="max-w-30" src="./assets/feature-choice-icon.svg" />
+          </div>
+          <div>
+            <p class="text-base max-w-80 text-balance text-center">
+              Customize how AI shows up, or turn it off entirely.
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-between gap-6 lg:gap-14 w-full px-8 py-10 rounded-[50px] bg-gradient-to-b from-white/90 to-white border border-[#f1e7f8] transition-transform duration-300 ease-out hover:-translate-y-[3px]"
+        >
+          <div class="flex flex-col items-center gap-5">
+            <p class="text-purple-800 text-xs font-semibold">INDEPENDENCE</p>
+            <h2
+              class="text-2xl lg:text-3xl max-w-60 text-balance text-center font-semibold"
+            >
+              Not owned by shareholders
+            </h2>
+          </div>
+          <div>
+            <img
+              class="max-w-30"
+              src="./assets/feature-independence-icon.svg"
+            />
+          </div>
+          <div>
+            <p class="text-base max-w-80 text-balance text-center">
+              We don’t sell your personal data and we never will.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Firefox setup section -->
+      <section
+        class="flex flex-col lg:items-center overflow-y-hidden lg:pb-16 mb-30 rounded-b-[50px] lg:rounded-b-[150px] border-b-2 border-purple-300"
+      >
+        <div
+          class="flex flex-col items-center gap-12 lg:gap-14 text-white pt-30 md:pt-40 pb-24 md:pb-36"
+        >
+          <div class="flex flex-col items-center gap-10 lg:gap-6">
+            <h2
+              class="text-4xl md:text-5xl lg:text-6xl max-w-70 md:max-w-140 lg:max-w-180 font-bold text-center text-balance leading-none"
+            >
+              Fast to switch. Easy to settle in.
+            </h2>
+            <p
+              class="text-[17px] max-w-80 md:max-w-150 lg:max-w-[700px] text-center leading-tight"
+            >
+              When switching to Firefox, your bookmarks, passwords, and history
+              come with you automatically, so you can get back to browsing right
+              away.
+            </p>
+          </div>
+          <div class="flex flex-col items-center gap-4">
+            <a
+              class="flex gap-3 items-center bg-[rgb(117,67,227)] px-6 py-2.5 rounded-3xl text-md font-bold hover:bg-[rgb(92,54,180)] cursor-pointer"
+            >
+              Download Firefox
+              <img class="w-full max-w-5" src="./assets/download.svg"
+            /></a>
+            <a
+              href="#"
+              class="text-sm text-purple-300 underline hover:text-white hover:no-underline"
+            >
+              Firefox Privacy Notice
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center gap-10 rounded-[50px] rounded-b-none lg:rounded-b-[50px] px-10 pt-10 mx-6 xl:mx-0 text-white bg-[radial-gradient(122.66%_137.66%_at_50%_0%,_rgb(174_73_236)_0%,_rgb(33_3_64)_100%)]"
+        >
+          <div
+            class="flex flex-col lg:flex-row w-full justify-center gap-8 lg:gap-10"
+          >
+            <div class="flex gap-4 items-center">
+              <span
+                class="text-black bg-white rounded-full px-2.5 py-1.5 font-bold"
+                >01</span
+              >
+              <p class="text-lg max-w-45 text-balance">
+                Select what you want to bring with you
+              </p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <span
+                class="text-black bg-white rounded-full px-2.5 py-1.5 font-bold"
+                >02</span
+              >
+              <p class="text-lg max-w-50 text-balance">Download Firefox</p>
+            </div>
+            <div class="flex gap-4 items-center">
+              <span
+                class="text-black bg-white rounded-full px-2.5 py-1.5 font-bold"
+                >03</span
+              >
+              <p class="text-lg max-w-50 text-balance">Click import</p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="max-w-60 md:max-w-150 lg:max-w-180"
+              src="./assets/steps-2.webp"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- img 1 -->
+      <section
+        class="flex flex-col items-center text-white gap-14 mb-50 p-4 lg:p-0"
+      >
+        <h2
+          class="text-4xl max-w-80 md:max-w-full md:text-5xl lg:text-6xl font-bold text-center"
+        >
+          Privacy without the work
+        </h2>
+        <div class="flex flex-col items-center w-full">
+          <img
+            class="mb-5 aspect-square md:aspect-auto object-cover md:object-none"
+            src="./assets/keyholde-fox.svg"
+          />
+          <p
+            class="w-full max-w-80 md:max-w-full lg:max-w-[700px] block text-[17px] text-center text-balance"
+          >
+            Firefox protects your privacy automatically, with built-in tracker
+            blocking from the start. You stay protected by default, without
+            extra steps.
+          </p>
+        </div>
+      </section>
+
+      <!-- img 2 -->
+      <section
+        class="flex flex-col items-center text-white gap-14 mb-50 p-4 lg:p-0"
+      >
+        <h2
+          class="text-4xl max-w-80 text-balance md:max-w-200 md:text-5xl lg:text-6xl font-bold text-center"
+        >
+          All your stuff on desktop, mobile, and tablet
+        </h2>
+        <div class="flex flex-col items-center w-full">
+          <img
+            class="mb-5 aspect-video lg:aspect-auto object-cover lg:object-auto"
+            src="./assets/devices-img.svg"
+          />
+          <div class="flex flex-col md:flex-row max-w-180 gap-4 md:gap-2">
+            <p class="text-2xl lg:text-4xl font-semibold leading-tight">
+              Take your tabs, history, and passwords wherever you go.
+            </p>
+            <p class="text-[17px] lg:text-lg leading-snug text-balance">
+              Firefox works across platforms, so your data isn’t tied to one
+              platform and stays encrypted by default.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2 feature grid -->
+      <section
+        class="flex flex-col items-center px-6 lg:px-10 gap-20 text-white mb-50"
+      >
+        <div>
+          <h2
+            class="text-4xl md:text-5xl lg:text-6xl font-bold text-balance text-center"
+          >
+            Built to benefit billions, not billionaires
+          </h2>
+        </div>
+
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 grid-rows-[1fr_1fr_auto] gap-4"
+        >
+          <!-- grid 1st -->
+          <div
+            class="row-span-3 bg-[rgb(58,15,110)] flex flex-col justify-between pl-8 lg:pl-20 pt-10 lg:pt-22 rounded-[48px] lg:rounded-[120px] overflow-hidden"
+          >
+            <div class="mb-10 lg:mb-0">
+              <div class="flex flex-col lg:flex-row gap-4 items-start mb-6">
+                <span class="bg-white p-2 rounded-full"
+                  ><img class="max-w-4.5" src="./assets/search-icon.svg" />
+                </span>
+                <h3
+                  class="font-bold text-2xl lg:text-3xl lg:max-w-80 text-balance"
+                >
+                  Stay focused without distractions
+                </h3>
+              </div>
+              <div>
+                <p
+                  class="text-[17px] max-w-62 leading-tight md:max-w-180 text-balance text-left"
+                >
+                  Firefox is designed to work with your attention, not compete
+                  for it. Reader mode clears distractions from articles,
+                  picture-in-picture keeps video out of your way, and pinned
+                  tabs keep what matters close without clutter.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <img
+                class="object-cover aspect-auto"
+                src="./assets/browser-img.webp"
+              />
+            </div>
+          </div>
+
+          <!-- grid 2nd -->
+          <div
+            class="row-span-2 bg-[rgb(21,2,38)] flex flex-col gap-30 px-12 lg:px-20 pt-10 lg:pt-22 rounded-[48px] lg:rounded-[120px] overflow-hidden"
+          >
+            <div>
+              <div
+                class="flex flex-col lg:flex-row gap-0 lg:gap-4 items-start mb-6"
+              >
+                <span class="bg-white p-2 rounded-full mb-4 inline-block">
+                  <img class="max-w-4" src="./assets/paint-palette-icon.png" />
+                </span>
+                <h3 class="font-bold text-2xl lg:text-3xl align-top">
+                  Your workspace, your rules
+                </h3>
+              </div>
+
+              <div>
+                <ul class="list-disc text-[17px]">
+                  <li class="mb-4">
+                    Tab groups and Firefox View help you manage the chaos
+                  </li>
+                  <li class="mb-4">
+                    Customizable sidebar keeps your most-used tools one click
+                    away
+                  </li>
+                  <li class="mb-4">
+                    Clean interface and intuitive controls keep clutter out of
+                    your way
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/fox-img.webp" />
+            </div>
+          </div>
+
+          <!-- grid 3rd -->
+          <div
+            class="bg-[rgba(44,12,85,0.4)] flex flex-col gap-5 items-center p-10 py-20 lg:p-20 rounded-[120px] lg:rounded-[200px]"
+          >
+            <h3 class="font-bold text-2xl lg:text-3xl text-center text-balance">
+              AI, if and when you want it
+            </h3>
+            <div>
+              <p
+                class="text-base lg:text-[17px] lg:max-w-80 text-center text-balance"
+              >
+                Firefox approaches AI with intention, not obligation. AI
+                features are optional by design and will remain that way.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[rgb(21,2,38)] text-white px-5 lg:px-15 py-10">
+      <div
+        class="grid grid-cols-2 lg:grid-cols-6 mb-20 text-[17px] gap-5 lg:gap-10"
+      >
+        <div class="flex flex-col row-span-2 lg:row-auto gap-2 items-start">
+          <h2 class="font-bold">Download</h2>
+          <a>Download Firefox</a>
+          <a>Windows</a>
+          <a>macOS</a>
+          <a>iOS</a>
+          <a>Android</a>
+          <a>Linux</a>
+          <a class="text-balance max-w-40">Custom Download Options</a>
+        </div>
+        <div class="flex flex-col gap-5">
+          <div class="flex flex-col gap-2 items-start">
+            <h2 class="font-bold">Latest Builds</h2>
+            <a>Nightly</a>
+            <a>Beta</a>
+          </div>
+          <div class="flex flex-col gap-2 items-start">
+            <h2 class="font-bold">Firefox for Business</h2>
+            <a>Enterprise</a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-2 items-start">
+          <h2 class="font-bold">Community</h2>
+          <a>Connect</a>
+          <a>Contibute</a>
+          <a>Developer</a>
+        </div>
+        <div class="flex flex-col gap-2 items-start">
+          <h2 class="font-bold">Resources</h2>
+          <a>Compare</a>
+          <a>Release Notes</a>
+          <a>Learn</a>
+          <a>Support</a>
+          <a>Add-ons</a>
+          <a>Community</a>
+          <a>Blog</a>
+        </div>
+        <div class="flex flex-col gap-2 items-start">
+          <h2 class="font-bold">Follow Us</h2>
+          <a>Instagram</a>
+          <a>YouTube</a>
+          <a>TickTok</a>
+          <a>Bluesky</a>
+          <a>Podcast</a>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col lg:flex-row gap-8 lg:justify-between text-xs font-semibold"
+      >
+        <a>WEBSITE PRIVACY NOTICE</a>
+        <a>TERMS OF USE</a>
+        <a>COOKIE POLICY</a>
+        <a>COMMUNITY PARTICIPATION GUIDELINES</a>
+        <a>LOGO TRADEMARK LICENSING</a>
+      </div>
+    </footer>
+  </body>
+</html>
